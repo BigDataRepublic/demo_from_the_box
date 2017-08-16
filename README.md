@@ -29,7 +29,7 @@ Copy the follwing code into your notebook cell and run to start a http interface
 	        print("Empty data received")
 	        return
 	    input_df = pd.DataFrame.from_dict([input_data])
-	    prediction = model.predict(input_df)
+	    prediction = trained_model.predict(input_df)
 	    print(prediction)
 	    return jsonify({"prediction": str(prediction[0])})
 	
