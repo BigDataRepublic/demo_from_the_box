@@ -1,0 +1,20 @@
+<div class="row">
+	<div class="col-lg-12">
+		<button class="btn btn-default" ng-click="predict()">Predict</button> {{prediction}}
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-12">
+		<H2>Input</H2>
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-2" ng-repeat="(feature,value) in input">
+		<div class="row" >
+			<div class="col-lg-12">
+				<h3>{{feature}}</h3>
+				<input type="text" class="form-control form_element" id="usr" placeholder="{{value}}" ng-model="input[feature]">
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,29 @@
+h3 {
+	color: #004478;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.container {
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+
+.form_element {
+}
+
+#predict_button {
+	margin-top: 100px;
+	padding: 15% 32%;
+}
+
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+	letter-spacing: 2px;
+	color: #ec6726;
+	text-transform: uppercase;
+}
+
+#ETD {
+	font-size:20px;
+}

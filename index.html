@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>Data Science Demo</title>
+	<!-- icon -->
+	<link rel="shortcut icon" href="favicon.ico" />
+
+	<!-- JS imports -->
+	<!-- JQuery -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+
+	<!-- Angular -->
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script type="text/javascript" src="bower_components\bootstrap\dist\js\bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bower_components\bootstrap\dist\css\bootstrap.min.css">
+
+	<!-- Angular app-->
+	<script src="angular/app.js"></script>
+	<script src="angular/controllers/form_controller.js"></script>
+
+	<!-- Custom style -->
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+</head>
+<body>
+
+<div class="container">
+	<div class="header">
+	<div class="row">	
+			<div class="col-lg-12">		
+				<img src="logo.png" alt="Company Logo" height="150px">
+			</div>
+		</div>
+		<div class="row">	
+			<div class="col-lg-12">		
+				<H1>Model demo</H1>
+			</div>
+		</div>
+	</div>
+	<div ng-view></div>
+</div>
+
+</body>
+</html>
